@@ -1,0 +1,67 @@
+{
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    
+    // CMake
+    "cmake.buildTask": false,
+    "cmake.buildBeforeRun": false,
+    "cmake.configureOnOpen": true,
+    "cmake.automaticReconfigure": true,
+    "cmake.autoSelectActiveFolder": true,
+    "cmake.deleteBuildDirOnCleanConfigure": true,
+    "cmake.allowCommentsInPresetsFile": false,
+    "cmake.options.statusBarVisibility": "visible",
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": "C:/Users/vicen/scoop/apps/vcpkg/current/scripts/buildsystems/vcpkg.cmake"
+    },
+    "cmake.configureArgs": ["--graphviz=Dependencies.dot"],
+    "cmake.buildArgs": [],
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "[cmake]": {
+        "editor.quickSuggestions": {
+            "strings": true,
+            "comments": "off",
+            "other": "on"
+        }
+    },
+
+    // Markdown
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+
+    // Astro
+    "[astro]": {
+        "editor.defaultFormatter": "astro-build.astro-vscode"
+    },
+
+    // Svelte
+    "svelte.enable-ts-plugin": true,
+
+    // Git
+    "git.confirmSync": false,
+    "git.openRepositoryInParentFolders": "never",
+    "githubPullRequests.pullBranch": "never",
+
+    // Editor
+    "editor.fontSize": 22,
+    "editor.linkedEditing": true,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.inlineSuggest.showToolbar": "always",
+
+    // Workbench
+    "workbench.colorTheme": "13adffd9-acbe-47af-8101-fa71269a4c5c",
+    "workbench.iconTheme": "material-icon-theme",
+
+    // Markdown PDF
+    "markdown-pdf.displayHeaderFooter": false,
+    "markdown-pdf.footerTemplate": "",
+    "markdown-pdf.format": "Letter",
+    "markdown-pdf.headerTemplate": ""
+}
